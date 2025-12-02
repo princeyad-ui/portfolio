@@ -7,7 +7,8 @@ const projects = [
     description: "AI-Proctor is an intelligent online exam monitoring system that uses AI to detect cheating through face tracking, object detection, audio analysis, and activity monitoring, ensuring fair and secure examinations",
     image: "/projects/project1.png",
     tags: ["React.js", "Node.js", "Express.js" , "MongoDB"],
-    demoUrl: "ai-proctor.netlify.app/",
+    link: "https://ai-proctor.netlify.app/",
+
     githubUrl: "https://github.com/princeyad-ui/AI-Proctor",
   },
   {
@@ -17,7 +18,8 @@ const projects = [
       "Interactive quiz app for learning, practicing, and testing knowledge easily.",
     image: "/projects/project2.png",
     tags: ["React", "JavaScript", "Node.js"],
-    demoUrl: "quiz-05.netlify.app/home",
+    demoUrl: "https://quiz-05.netlify.app/home",
+
     githubUrl: "https://github.com/princeyad-ui/My-Quiz-app",
   },
   {
