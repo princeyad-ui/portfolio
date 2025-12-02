@@ -8,7 +8,7 @@ const projects = [
     "AI-Proctor is an intelligent online exam monitoring system that uses AI to detect cheating through face tracking, object detection, audio analysis, and activity monitoring, ensuring fair and secure examinations",
   image: "/projects/project1.png",
   tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-  link: "https://ai-proctor.netlify.app/",
+  demoUrl: "https://ai-proctor.netlify.app/",
   githubUrl: "https://github.com/princeyad-ui/AI-Proctor",
 },
 
