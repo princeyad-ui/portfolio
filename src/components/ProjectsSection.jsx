@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Food Website",
-    description: "Delicious recipes, easy cooking tips, and inspiring food ideas online.",
+    title: "AI-Proctor",
+    description: "AI-Proctor is an intelligent online exam monitoring system that uses AI to detect cheating through face tracking, object detection, audio analysis, and activity monitoring, ensuring fair and secure examinations",
     image: "/projects/project1.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "http://127.0.0.1:5500/Breakfast.html",
-    githubUrl: "https://github.com/princeyad-ui/Food-website",
+    tags: ["React.js", "Node.js", "Express.js" , "MongoDB"],
+    demoUrl: "ai-proctor.netlify.app/",
+    githubUrl: "https://github.com/princeyad-ui/AI-Proctor",
   },
   {
     id: 2,
@@ -17,18 +17,18 @@ const projects = [
       "Interactive quiz app for learning, practicing, and testing knowledge easily.",
     image: "/projects/project2.png",
     tags: ["React", "JavaScript", "Node.js"],
-    demoUrl: "http://localhost:5174/home",
+    demoUrl: "quiz-05.netlify.app/home",
     githubUrl: "https://github.com/princeyad-ui/My-Quiz-app",
   },
   {
     id: 3,
-    title: "Amazon Clone (frontend)",
+    title: "WOw Appliances",
     description:
-      "Amazon clone with product browsing, cart, checkout, and user authentication.",
+      "WOW Appliances is a modern e-commerce web appliaction designed for buying home and kitchen appliances.",
     image: "/projects/project3.png",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["React.js", "Node.js", "Express.js" , "MongoDB"],
     demoUrl: "http://127.0.0.1:5500/index.html",
-    githubUrl: "https://github.com/princeyad-ui/Amazon-frontend-",
+    githubUrl: "https://github.com/princeyad-ui/WOW-Appliances",
   },
 ];
 
