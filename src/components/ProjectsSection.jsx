@@ -1,27 +1,28 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "AI-Proctor",
-    description: "AI-Proctor is an intelligent online exam monitoring system that uses AI to detect cheating through face tracking, object detection, audio analysis, and activity monitoring, ensuring fair and secure examinations",
-    image: "/projects/project1.png",
-    tags: ["React.js", "Node.js", "Express.js" , "MongoDB"],
-    link: "https://ai-proctor.netlify.app/",
+ {
+  id: 1,
+  title: "AI-Proctor",
+  description:
+    "AI-Proctor is an intelligent online exam monitoring system that uses AI to detect cheating through face tracking, object detection, audio analysis, and activity monitoring, ensuring fair and secure examinations",
+  image: "/projects/project1.png",
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+  link: "https://ai-proctor.netlify.app/",
+  githubUrl: "https://github.com/princeyad-ui/AI-Proctor",
+},
 
-    githubUrl: "https://github.com/princeyad-ui/AI-Proctor",
-  },
-  {
-    id: 2,
-    title: "Quiz App",
-    description:
-      "Interactive quiz app for learning, practicing, and testing knowledge easily.",
-    image: "/projects/project2.png",
-    tags: ["React", "JavaScript", "Node.js"],
-    demoUrl: "https://quiz-05.netlify.app/home",
+ {
+  id: 2,
+  title: "Quiz App",
+  description:
+    "Interactive quiz app for learning, practicing, and testing knowledge easily.",
+  image: "/projects/project2.png",
+  tags: ["React", "JavaScript", "Node.js"],
+  demoUrl: "https://quiz-05.netlify.app/",   // ✅ fixed (removed /home)
+  githubUrl: "https://github.com/princeyad-ui/My-Quiz-app",
+},
 
-    githubUrl: "https://github.com/princeyad-ui/My-Quiz-app",
-  },
   {
     id: 3,
     title: "WOw Appliances",
