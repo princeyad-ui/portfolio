@@ -33,6 +33,26 @@ const projects = [
     demoUrl: "http://127.0.0.1:5500/index.html",
     githubUrl: "https://github.com/princeyad-ui/WOW-Appliances",
   },
+   {
+  id: 4,
+  title: "ConvertX",
+  description:
+    "ConvertX is a multi-functional file conversion platform built using React, Node.js, Express, Python, and modern conversion libraries.",
+  image: "/projects/project4.png",
+  tags: ["React.js", "Express.js", "Node.js","MongoDB"],
+  demoUrl: "https://convertx-01.netlify.app/",   // ✅ fixed (removed /home)
+  githubUrl: "https://github.com/princeyad-ui/ConvertX",
+},
+{
+ id: 5,
+  title: "Hosting",
+  description:
+    "Developed a full-stack web hosting platform that allows users to deploy their frontend projects instantly by uploading source code.",
+  image: "/projects/project5.png",
+  tags: ["React.js", "Express.js", "Node.js","MongoDB"],
+  demoUrl: "https://hosting-01.netlify.app/",   // ✅ fixed (removed /home)
+  githubUrl: "https://github.com/princeyad-ui/Hosting",
+},
 ];
 
 export const ProjectsSection = () => {
